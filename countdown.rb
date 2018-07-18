@@ -3,7 +3,7 @@
 second = 10
 
 def countdown(second)
-  while second > 0
+  while second > 0 || < 11
     puts "#{second} SECOND(S)!"
   second -= 1
   end
